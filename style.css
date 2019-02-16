@@ -1,0 +1,35 @@
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+ 
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+text{
+    font-family: sans-serif;
+    font-size: 0.3em;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#graph{
+    margin: 0;
+    padding: 0;
+}
+#bar-outer{
+    background-color:#ffffff;
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+#bar-inner{
+    background-color:#ff0000;
+    height:100%;
+    width:0%;
+    position: absolute;
+    left:0;
+}
